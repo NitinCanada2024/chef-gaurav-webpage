@@ -1,0 +1,39 @@
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rossa:wght@400;700&family=Effra:wght@400;700&display=swap');
+
+body {
+    font-family: 'Effra', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Rossa', sans-serif; /* Title font */
+}
+
+main {
+    padding: 2rem;
+}
+
+.chef-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
